@@ -7,5 +7,16 @@
         <link rel="stylesheet" href="donate.css">
     </head>
     <body>
-
+        <h1>HELP US DO MORE</h1>
+        <label for="toggle">
+            <input class="checkbox" type="checkbox" id="toggle">
+            <span class="slider" id="toggle"></span>
+          </label>
+          <form class="form" action="/submit" method="post">
+            <label for="name">ENTER NAME / ORGANIZATION</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name or name of organization" required><br>
+            <label for="amount">ENTER AMOUNT (IN CFA)</label><br>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount" required><br>
+            <button class="donate" type="submit">Donate</button>
+        </form>
     </body>

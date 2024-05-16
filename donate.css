@@ -1,0 +1,70 @@
+.slider {
+    content: CASH;
+    position: absolute;
+    color: #ffc916;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: #004aad;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+    left: 100px;
+    top: 100px;
+  }
+  
+  .slider:after {
+    content: "CASH";
+    align-items: ;
+    color: YELLOW;
+    font-size: 12PX;
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: #080f2b;
+    border-radius: 30px;
+    transition: left 0.5s ease;
+  }
+  
+  #toggle:checked + .slider {
+    background-color: #004aad;
+    
+  }
+  
+  #toggle:checked + .slider:after {
+    left: calc(100% - 210px);
+  }
+  .checkbox {
+    opacity: 0;
+
+  }
+  #name {
+    width: 400px;
+    border: 2px solid #ffc916;
+    height: 40px;
+  }
+  #amount {
+    width: 400px;
+    border: 2px solid #ffc916;
+    height: 40px;
+  }
+  .donate {
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #ffc916;
+        position: absolute;
+        color:#080f2b;
+        left: 100px;
+        top: 300px;
+  }
+  h1 {
+    position: absolute;
+    left: 600px;
+  }
+  .form {
+    position: absolute;
+    top: 300px;
+  }

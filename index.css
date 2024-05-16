@@ -98,9 +98,9 @@ body {
     font-size: 20px;
 }
 .donate:hover {
-    background-color: #0e0abf; /* Background color on hover */
-    color: #000; /* Text color on hover */
-  }
+    background-color: #0e0abf; 
+    color: #000;
+}
 .container .big-text1 {
     position: absolute;
     top: 280px;

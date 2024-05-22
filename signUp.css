@@ -94,6 +94,9 @@ a {
     font-size: 15px;
     padding: 20px;
 }
+input::focus {
+    outline: none;
+}
 .submit {
     width: 500px;
     height: 50px;

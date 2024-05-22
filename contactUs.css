@@ -95,6 +95,7 @@ body {
     border: none;
     position: relative;
     padding-left: 20px;
+    color: white;
 }
 #email::placeholder {
     color: white; /* Set your desired color here */
@@ -111,6 +112,7 @@ body {
     left: 500px;
     top: -50px;
     padding-left: 20px;
+    color: white;
 }
 #number::placeholder {
     color: white; /* Set your desired color here */
@@ -125,6 +127,7 @@ body {
     border: none;
     position: relative;
     padding-left: 20px;
+    color: white;
 }
 
 #username::placeholder {
@@ -141,6 +144,7 @@ body {
     position: relative;
     top: 50px;
     padding-left: 20px;
+    color: white;
    
 }
 #message::placeholder {

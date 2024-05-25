@@ -140,3 +140,24 @@ label {
     top: 360px;
     left: 60px;
 }
+a {
+    position: absolute;
+    top: 460px;
+    left: 950px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h4 {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#signUp {
+    position: absolute;
+    top: 522px;
+    left: 870px;
+}

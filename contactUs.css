@@ -299,9 +299,10 @@ body {
   }
   .foot {
     background-color: rgb(19, 19, 19);
-  
+    top: 1500px;
     width: 100%;
     height: 500px;
+    position: absolute;
   }
   .logo-outline {
     width: 50px;
@@ -316,7 +317,7 @@ body {
   .logo img {
     width: 80px;
     position: absolute;
-    bottom: -990px;
+    bottom: 390px;
   }
   .logo-text {
     color: white;
@@ -328,7 +329,7 @@ body {
 .logo-text ul {
     list-style-type: none;
     position: relative;
-    top: 1760px;
+    top: -20px;
     left: -10px;
 }
 #list-small {
@@ -352,7 +353,7 @@ body {
     color: white;
     left: 640px;
     position: absolute;
-    top: 1800px;
+    top: 0px;
 
 }
 .Quicklinks li {
@@ -360,7 +361,7 @@ body {
     text-decoration: none;
     line-height: 50px;
     position: relative;
-    left: 1000px;
+    left: 970px;
     top: -270px;
    
     
@@ -374,18 +375,19 @@ body {
     color: white;
     left: 1000px;
     position: absolute;
-    top: 1800px;
+    top: 0px;
 
 }
 .Blogs li {
     list-style-type: none;
     text-decoration: none;
     line-height: 50px;
-    position: absolute;
-    left: 1200px;
-    top: -620px;
-   
-    
+    position: relative;
+    left: 1320px;
+    top: -520px; 
+}
+.Blogs ul{
+  padding: 20px;
 }
 .Blogs a{
     text-decoration: none;
@@ -393,9 +395,9 @@ body {
 }
 .Blogs h1 {
     color: white;
-    left: 1240px;
+    left: 1340px;
     position: absolute;
-    top: -620px;
+    top: 0px;
 
 }
 .foot-icons ul li{
@@ -411,7 +413,7 @@ body {
     width: 6em;
     height: 3em;
     left: 5px;
-    top: 2200px;
+    top: 430px;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -422,7 +424,7 @@ body {
     width: 5em;
     height: 3em;
     left: 500px;
-    top: 2200px;
+    top: 430px;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -433,7 +435,7 @@ body {
     width: 5em;
     height: 3em;
     left: 800px;
-    top: 2200px;
+    top: 430px;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -457,17 +459,17 @@ body {
   .foot-icon-text #li1 {
     position: absolute;
     left: 10px;
-    top: 2110px;
+    top: 340px;
   }
   .foot-icon-text #li2 {
     position: absolute;
     left: 480px;
-    top: 2110px;
+    top: 340px;
   }
   .foot-icon-text #li3 {
     position: absolute;
     left: 780px;
-    top: 2110px;
+    top: 340px;
   }
   .devicon--linkedin {
     display: inline-block;
@@ -509,6 +511,12 @@ body {
     display: inline;
     padding: 20px;
     position: relative;
-    top: -150px;
+    top: -350px;
     left: 1200px;
+  }
+  .bottom {
+    position: absolute;
+    
+    color: #fdc00f;
+    left: 40%;
   }
